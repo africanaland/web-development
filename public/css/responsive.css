@@ -1,0 +1,267 @@
+@media only screen and (max-width: 1660px) and (min-width: 1024px) {
+    .homeMainDiv .col-xl-4 {
+        flex: 0 0 36.333333%;
+        max-width: 36.333333%;
+    }
+    .border-sm-bottom-0{
+        border-bottom: 0px !important
+    }
+    .border-sm-left{
+        border-left: 1px solid #dee2e6!important
+    }
+    .w-sm-0{
+        width:unset !important
+    }
+
+
+}
+@media only screen and (max-width: 1024px) {
+    .bookingSearchBox {
+        width: 35%;
+    }
+    .pageBanner1 .pageBannerImage {
+        background-position: 0px -169px !important;
+    }
+
+    /* chat box */
+    .chat-box .chat-head {
+        height: 6vh;
+    }
+    .chat-box .chat-body {
+        height: 94vh;
+    }
+    .chat-box .chat-body.middle .chat-body-div {
+        height: 87vh;
+    }
+
+    .message-Box > .receiver,
+    .message-Box .sender {
+        max-width: 71%;
+    }
+
+    .user-online .user-online-profile::after {
+        right: 19px;
+        bottom: 1px;
+    }
+
+    /* end chat box */
+    .border-sm-bottom-0{
+        border-bottom: 0px !important
+    }
+    .border-sm-left{
+        border-left: 1px solid #dee2e6!important
+    }
+    .w-sm-0{
+        width:unset !important
+    }
+
+
+
+}
+
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px) {
+    .bookingSearchBox {
+        width: 42%;
+    }
+    .user-online .user-online-profile::after {
+        right: 9px;
+        bottom: 1px;
+    }
+    .border-sm-bottom-0{
+        border-bottom: 0px !important
+    }
+    .border-sm-left{
+        border-left: 1px solid #dee2e6!important
+    }
+    .w-sm-0{
+        width:unset !important
+    }
+    /* booking search page  */
+    .searchWrapper .searchLeft,
+    .searchWrapper .searchRight {
+        width: 100%;
+        display: unset;
+        vertical-align: unset;
+    }
+    .searchLeft #map {
+        width: 100%;
+        height: 50vh;
+        border-bottom: 1px solid #cacaca;
+    }
+    /* end booking search page  */
+}
+
+/* Screens Resolution : 767px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+    .user-online .user-online-profile::after {
+        right: 7px;
+    }
+    .border-sm-bottom-0{
+        border-bottom: 1px solid #dee2e6!important
+    }
+    .border-sm-left{
+        border-left: 0px !important
+    }
+    .w-sm-0{
+        width:unset !important
+    }
+
+
+}
+
+/* Screens Resolution : 575px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 575px) {
+}
+
+/* Screens Resolution : 479px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 479px) {
+    .w-xs-50{
+        width: 50% !important;
+    }
+    .wrapper .navbar-laravel a.nav-link,
+    .wrapper .nav-item .nav-inline-item {
+        font-size: 13px;
+    }
+    .navDropDown {
+        width: 100%;
+    }
+    .navbar-nav .dropdown-menu {
+        position: relative;
+    }
+    .homeWrapper .footerHomePage {
+        position: unset;
+        bottom: unset;
+    }
+    .pageBanner {
+        height: 119px;
+    }
+    .pageBanner.bookingBanner {
+        height: 181px;
+    }
+    .pageBanner.bookingBanner span {
+        position: absolute;
+        z-index: 100;
+        color: #fff;
+        top: 29%;
+    }
+    .bookingBanner.bookingBanner img {
+        margin-top: 0%;
+    }
+    .homeWrapper {
+        height: unset;
+        position: relative;
+    }
+    .afTabs .nav-item {
+        width: auto;
+        text-align: center;
+    }
+    .bookingSearchBox {
+        width: 86%;
+    }
+    .w-mlg {
+        max-width: 94% !important;
+        width: 94% !important;
+    }
+    .pageBanner1 .pageBannerImage {
+        background-position: 0px 0px !important;
+        height: 174px;
+    }
+
+    /* chat box */
+    .chat-box .chat-head {
+        height: 8vh;
+        border-left: 1px solid #a79e9e;
+    }
+    .chat-box .chat-body {
+        height: 92vh;
+        border-left: 1px solid #a79e9e;
+    }
+    .chat-box .chat-body.middle .chat-body-div {
+        height: 82vh;
+    }
+    .message-Box > .receiver,
+    .message-Box .sender {
+        max-width: 81%;
+    }
+    .nav-panel {
+        position: absolute;
+        z-index: 30;
+        left: -100%;
+        background: #fff;
+        transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+    }
+    .nav-panel.active {
+        left: 0% !important;
+    }
+    .message-Box > .sender .user-img,
+    .message-Box > .receiver .user-img {
+        height: 30px;
+        width: 30px;
+    }
+    .bookingBanner.upcoming,
+    .bookingBanner.previous {
+        background-position: center center !important;
+    }
+
+
+    /* end chat box */
+
+   
+    /* calender */
+    .embedded-daterangepicker .daterangepicker .drp-calendar {
+        width: 100%;
+        max-width: 100%;
+    }
+    /* end calender */
+
+    .btn-user {
+        width: 47%;
+    }
+    p.notifyText {
+        font-size: 13px;
+    }
+
+    .policyContent p {
+        font-size: 15px;
+        line-height: 20px;
+        word-spacing: 1px;
+        text-align: justify;
+    }
+    .afTabs .nav-item {
+        width: 50%;
+        margin: 0;
+    }
+    .addRightBorder div:not(:last-child) {
+        border-right: 0px;
+    }
+    .radio-control,
+    .checkbox-control {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .summeryImg {
+        border: 3px solid #fff;
+        border-radius: 16px;
+    }
+    .siteFooter {
+        padding: 12px 0px;
+    }
+}
+
+/* Screens Resolution : 359px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 359px) {
+}
+
+/* Screens Resolution : 290px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 290px) {
+}
